@@ -23,9 +23,10 @@ Oaxaca, Oaxaca, a 07 de julio de 2025.
 ## Presentación del Producto: Login PetShop
 
 El login de PetShop es una interfaz de autenticación moderna y atractiva diseñada específicamente para una tienda de mascotas. 
-La página presenta un diseño elegante con efectos de cristal esmerilado (glassmorphism) que crea una experiencia visual sofisticada y acogedora para los usuarios.
+La página presenta un diseño elegante con efectos de cristal esmerilado que crea una experiencia visual sofisticada y acogedora para los usuarios.
 
 --
+
 Explicación de la documentación
 ## El proyecto está compuesto por..
 
