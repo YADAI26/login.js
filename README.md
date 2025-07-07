@@ -1,4 +1,4 @@
-# login
+# lOGIN PETSHOOP
 
 <div align="center">
 
@@ -104,11 +104,17 @@ imagen de mi codigo html
 ![image](https://github.com/user-attachments/assets/36fba783-f669-4894-8b6c-877c45286daf)
 imagen de mi css
 ![image](https://github.com/user-attachments/assets/b8545ac1-bd65-4ce1-9682-1002b947ecee)
+--
 
 imagen de consola en navegaddor de login 
 ![image](https://github.com/user-attachments/assets/d4d84f17-0e76-4e2c-8e22-2871ffb63935)
+
 al entrar nos muestra la pag ya ejecutando 
 ![image](https://github.com/user-attachments/assets/be1a7b93-6b5e-4498-8fb8-60a39e9d2dc4)
+
+## GIT HUB PAGE
+https://yadai26.github.io/login.js/
+
 
 
 
