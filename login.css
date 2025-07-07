@@ -1,0 +1,143 @@
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Fondo de pantalla */
+.fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../img/tienda1.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perro-img {
+  position: absolute;
+  top: calc(40% - 239px); /* puedes ajustarlo también si sube mucho */
+  left: calc(50% - 140px); /* centra según el nuevo ancho */
+  z-index: 10;
+  width: 580px; /* ¡Aquí haces más grande al perrito! */
+  transform: translateY(-50%);
+}
+.logo-petshop {
+  width: 220px; /* puedes ajustar este valor */
+  margin-bottom: 90px;
+}
+
+/* Tarjeta principal */
+.login-box {
+  display: flex;
+  width: 900px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border-radius: 30px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Columna izquierda - formulario */
+.formulario {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.formulario h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+font-family: 'Times New Roman', serif;
+color: black;
+
+
+}
+
+.formulario input {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.formulario button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #54135fda, #be21a4);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #e837e8;
+}
+
+/* Columna derecha - presentación */
+.presentacion {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffffcc;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Cambia de center a flex-start */
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.logo-petshop {
+  width: 220px;
+  margin-top: 20px; /* antes no tenía */
+  margin-bottom: 30px; /* lo redujimos de 90px a 30px */
+}
+
+
+.presentacion h3 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: black;
+}
+
+.presentacion p {
+  font-size: 20px;
+  line-height: 1.7;
+  font-family: 'Georgia', serif;
+  color: black;
+}
+/* Botones sociales redondos */
+.btn.rounded-circle {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 0;
+  color: black;
+}
